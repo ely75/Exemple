@@ -9,8 +9,6 @@ public class Hello {
 		yo.setName("yo"); 
 		yo.setId(4);
 		System.out.println("Hello boy " + yo.getName() + "  " + yo.getId());
-			
-
 	}
 
 }

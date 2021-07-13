@@ -10,5 +10,6 @@ public class Hello {
 		yo.setId(4);	
 		System.out.println("******* Display ****************");
 		System.out.println("Hello boy " + yo.getName() + "  " + yo.getId());
+		System.out.println("***********************");
 	}
 }

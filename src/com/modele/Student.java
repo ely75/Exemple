@@ -1,9 +1,9 @@
 package com.modele;
 
 public class Student {
-	int id;
-	String name;
-	String firstname;
+	private int id;
+	private String name;
+	private String firstname;
 	
 	public String getFirstname() {
 		return firstname;
@@ -25,6 +25,6 @@ public class Student {
 	}
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", name=" + name + ", firstname=" + firstname + "]";
+		return "Student [id=" + id + ", Nom=" + name + ", Prenom=" + firstname + "]";
 	}	
 }

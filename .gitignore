@@ -1,5 +1,8 @@
 /bin/
 
-.settings/
-.classpath
+# Eclipse Core      
 .project
+.settings/
+
+# JDT-specific (Eclipse Java Development Tools)     
+.classpath
